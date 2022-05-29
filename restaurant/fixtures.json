@@ -1,0 +1,66 @@
+[
+    {
+      "model": "orders.menu",
+      "pk": 1,
+      "fields": {
+        "name": "Cheeseburger",
+        "description": "Lorem ipsum",
+        "price": "20.99"
+      }
+    },
+    {
+      "model": "orders.menu",
+      "pk": 2,
+      "fields": {
+        "name": "Hamburger",
+        "description": "Lorem",
+        "price": "21.99"
+      }
+    },
+    {
+      "model": "orders.menu",
+      "pk": 3,
+      "fields": {
+        "name": "Chickenburger",
+        "description": "Ipsum",
+        "price": "19.99"
+      }
+    },
+    {
+      "model": "orders.menu",
+      "pk": 4,
+      "fields": {
+        "name": "Fries",
+        "description": "Potato",
+        "price": "9.99"
+      }
+    },
+    {
+      "model": "orders.menu",
+      "pk": 5,
+      "fields": {
+        "name": "Chicken salad",
+        "description": null,
+        "price": "15.99"
+      }
+    },
+    {
+      "model": "orders.menu",
+      "pk": 6,
+      "fields": {
+        "name": "Vegan salad",
+        "description": null,
+        "price": "12.99"
+      }
+    },
+    {
+      "model": "orders.menu",
+      "pk": 7,
+      "fields": {
+        "name": "Smoothie",
+        "description": null,
+        "price": "8.99"
+      }
+    }
+    ]
+    

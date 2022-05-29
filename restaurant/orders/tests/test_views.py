@@ -1,3 +1,5 @@
+import json
+
 from django.test import TestCase
 from django.contrib.auth import get_user_model
 
@@ -10,6 +12,8 @@ from orders.models import Menu, Order
 from orders.views import (
     MenuDetail,
     MenuList,
+    OrderDetail,
+    OrderList,
 )
 
 class MenuTestCase(TestCase):
@@ -149,25 +153,3 @@ class OrderTestCase(TestCase):
         self.order = Order.objects.create(
             status='pending'
         )
-
-    def test_post_order(self):
-        pass
-
-    # empty order items or not existing ones
-    def test_post_order_invalid_order_items(self):
-        pass
-    
-    def test_get_orders(self):
-        pass
-    
-    def test_get_order(self):
-        pass
-
-    def test_put_order(self):
-        pass
-
-    def test_put_order_invalid_status(self):
-        pass
-
-    def test_delete_order(self):
-        pass
